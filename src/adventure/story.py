@@ -28,6 +28,7 @@ if __name__ == "__main__":
         choice = console.input("[italic yellow]Which direction do you choose?[/italic yellow] (left/right/exit): ")
         choice = choice.strip().lower()
         if choice == 'exit':
+            print("byebye")
             break
         
         print(step(choice, events))
